@@ -155,7 +155,7 @@ Mockito以自然的java风格来验证参数值: 使用equals()函数。有时�
  verify(mockedList).get(anyInt());
 ```
 
-参数匹配器使验证和测试桩变得更灵活。[点击这里](http://site.mockito.org/mockito/docs/current/org/mockito/Matchers.html)查看更多内置的匹配器以及自定义参数匹配器或者hamcrest 匹配器的示例。
+参数匹配器使验证和测试桩变得更灵活。[点击这里](https://javadoc.io/static/org.mockito/mockito-core/3.1.0/org/mockito/ArgumentMatchers.html)查看更多内置的匹配器以及自定义参数匹配器或者hamcrest 匹配器的示例。
 
 
 如果仅仅是获取自定义参数匹配器的信息，查看[ArgumentMatcher类文档](http://site.mockito.org/mockito/docs/current/org/mockito/ArgumentMatcher.html)即可。
